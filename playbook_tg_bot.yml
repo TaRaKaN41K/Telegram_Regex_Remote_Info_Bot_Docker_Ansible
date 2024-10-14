@@ -1,0 +1,230 @@
+---
+- name: Setup PostgreSQL Master DB
+  hosts: db
+  become: yes
+  tasks:
+
+    - name: Install PostgreSQL and contrib packages
+      apt:
+        name:
+          - postgresql
+          - postgresql-contrib
+        state: present
+
+    - name: Ensure PostgreSQL is running
+      service:
+        name: postgresql
+        state: started
+
+    - name: Copy .env file from bot to db
+      copy:
+        src: /home/kalashov-feodor-olegovich/.env
+        dest: /home/kalashov-feodor-olegovich/.env
+        mode: '0644'
+      delegate_to: db
+      become: yes
+
+    - name: Load environment variables from .env file
+      shell: grep -v '^#' /home/kalashov-feodor-olegovich/.env
+      register: env_vars
+
+    - name: Set environment variables as facts
+      set_fact:
+        env_dict: "{{ env_dict | default({}) | combine({ item.split('=')[0]: item.split('=')[1] }) }}"
+      loop: "{{ env_vars.stdout_lines }}"
+      when: item is match('^[^#]+=')
+
+    - name: Show loaded environment variables
+      debug:
+        msg: "{{ env_dict }}"
+
+    - name: Update pg_hba.conf for md5 authentication
+      lineinfile:
+        path: /etc/postgresql/14/main/pg_hba.conf
+        regexp: '^local\s+all\s+all\s+md5'
+        line: 'local   all             all                                trust'
+      notify: Restart PostgreSQL
+
+    - name: Update pg_hba.conf for replication and bot access
+      blockinfile:
+        path: /etc/postgresql/14/main/pg_hba.conf
+        block: |
+          host replication postgres {{ env_dict.DB_REPL_HOST }}/32 scram-sha-256
+          host all all {{ hostvars['bot']['ansible_host'] }}/32 md5
+      notify: Restart PostgreSQL
+
+    - name: Create database
+      postgresql_db:
+        name: "{{ env_dict.DB_DATABASE }}"
+        state: present
+        login_user: "{{ env_dict.DB_USER }}"
+        login_password: "{{ env_dict.DB_PASSWORD }}"
+
+    - name: Create tables
+      postgresql_query:
+        db: "{{ env_dict.DB_DATABASE }}"
+        query: |
+          CREATE TABLE IF NOT EXISTS emails (
+            id SERIAL PRIMARY KEY,
+            email VARCHAR(255)
+          );
+          CREATE TABLE IF NOT EXISTS phone_numbers (
+            id SERIAL PRIMARY KEY,
+            phone_number VARCHAR(255)
+          );
+
+    - name: Update postgresql.conf
+      lineinfile:
+        path: /etc/postgresql/14/main/postgresql.conf
+        regexp: '^(#?\s*(archive_mode|archive_command|max_wal_senders|wal_level|wal_log_hints))'
+        line: |
+          archive_mode = on
+          archive_command = 'cp %p /oracle/pg_data/archive/%f'
+          max_wal_senders = 10
+          wal_level = replica
+          wal_log_hints = on
+      notify: Restart PostgreSQL
+
+  handlers:
+    - name: Restart PostgreSQL
+      service:
+        name: postgresql
+        state: restarted
+
+- name: Setup PostgreSQL Replica DB
+  hosts: db_repl
+  become: yes
+  tasks:
+
+    - name: Install PostgreSQL
+      apt:
+        name:
+          - postgresql
+          - postgresql-contrib
+        state: present
+
+    - name: Copy .env file from bot to db
+      copy:
+        src: /home/kalashov-feodor-olegovich/.env
+        dest: /home/kalashov-feodor-olegovich/.env
+        mode: '0644'
+      delegate_to: db_repl
+      become: yes
+
+    - name: Load environment variables from .env file
+      shell: grep -v '^#' /home/kalashov-feodor-olegovich/.env
+      register: env_vars
+
+    - name: Set environment variables as facts
+      set_fact:
+        env_dict: "{{ env_dict | default({}) | combine({ item.split('=')[0]: item.split('=')[1] }) }}"
+      loop: "{{ env_vars.stdout_lines }}"
+      when: item is match('^[^#]+=')
+
+    - name: Show loaded environment variables
+      debug:
+        msg: "{{ env_dict }}"
+
+    - name: Update postgresql.conf to allow connections from any host
+      lineinfile:
+        path: /etc/postgresql/14/main/postgresql.conf
+        regexp: '^#?listen_addresses'
+        line: "listen_addresses = '*'"
+      notify: Restart PostgreSQL
+
+    - name: Stop PostgreSQL service on replica
+      service:
+        name: postgresql
+        state: stopped
+
+    - name: Clear main directory on replica
+      file:
+        path: /var/lib/postgresql/14/main
+        state: absent
+
+    - name: Base backup from master
+      command: >
+        pg_basebackup -R -h {{ hostvars['db']['ansible_host'] }} -U {{ env_dict.DB_REPL_USER }} -D /var/lib/postgresql/14/main -P
+      environment:
+        PGPASSWORD: "{{ env_dict.DB_REPL_PASSWORD }}"
+
+    - name: Configure recovery.conf for replication
+      copy:
+        content: |
+          standby_mode = 'on'
+          primary_conninfo = 'host={{ hostvars['db']['ansible_host'] }} port={{ env_dict.DB_PORT }} user={{ env_dict.DB_REPL_USER }} password={{ env_dict.DB_REPL_PASSWORD }}'
+          trigger_file = '/tmp/postgresql.trigger'
+        dest: /var/lib/postgresql/14/main/recovery.conf
+      notify: Restart PostgreSQL
+
+  handlers:
+    - name: Restart PostgreSQL
+      service:
+        name: postgresql
+        state: restarted
+
+- name: Setup Telegram bot
+  hosts: bot
+  become: yes
+  tasks:
+
+    - name: Install Git, Python, and virtualenv
+      apt:
+        name: "{{ item }}"
+        state: present
+      loop:
+        - git
+        - python3
+        - python3-venv
+        - python3-pip
+        - libpq-dev
+
+    - name: Clone bot repository
+      git:
+        repo: 'https://github.com/TaRaKaN41K/pt-start_bot.git'
+        dest: /opt/telegram_bot
+
+    - name: Create virtual environment
+      command: python3 -m venv /opt/telegram_bot/bot/venv
+
+    - name: Install bot dependencies
+      command: /opt/telegram_bot/bot/venv/bin/pip install -r /opt/telegram_bot/bot/requirements.txt
+      environment:
+        VIRTUAL_ENV: /opt/telegram_bot/bot/venv
+        PATH: "/opt/telegram_bot/bot/venv/bin:{{ ansible_env.PATH }}"
+
+    - name: Create logs directory
+      file:
+        path: /home/ansible/logs
+        state: directory
+        mode: '0755'
+
+    - name: Copy .env file to bot
+      copy:
+        src: /home/kalashov-feodor-olegovich/.env
+        dest: /opt/telegram_bot/bot/.env
+        mode: '0644'
+
+    - name: Load environment variables from .env file
+      shell: grep -v '^#' /opt/telegram_bot/bot/.env
+      register: env_vars
+
+    - name: Set environment variables as facts
+      set_fact:
+        env_dict: "{{ env_dict | default({}) | combine({ item.split('=')[0]: item.split('=')[1] }) }}"
+      loop: "{{ env_vars.stdout_lines }}"
+      when: item is match('^[^#]+=')
+
+    - name: Show loaded environment variables
+      debug:
+        msg: "{{ env_dict }}"
+
+    - name: Start bot
+      command: /opt/telegram_bot/bot/venv/bin/python /opt/telegram_bot/bot/src/main.py
+      environment:
+        TOKEN: "{{ env_dict.TOKEN }}"
+        DB_USER: "{{ env_dict.DB_USER }}"
+        DB_PASSWORD: "{{ env_dict.DB_PASSWORD }}"
+        DB_HOST: "{{ env_dict.DB_HOST }}"
+        DB_PORT: "{{ env_dict.DB_PORT }}"
+        DB_DATABASE: "{{ env_dict.DB_DATABASE }}"
