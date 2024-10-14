@@ -1,0 +1,333 @@
+2024-10-10 23:16:34,985 - tg_logger - INFO - Запуск Telegram-бота...
+2024-10-10 23:16:34,985 - tg_logger - INFO - Telegram-бот успешно запущен.
+2024-10-10 23:16:35,180 - tg_logger - INFO - Telegram-бот начал получать обновления.
+2024-10-10 23:16:40,948 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запустил бота.
+2024-10-10 23:16:43,003 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запрашивает помощь.
+2024-10-10 23:16:46,331 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Получение информации о релизе системы.
+2024-10-10 23:16:49,150 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Получение информации о состоянии оперативной памяти.
+2024-10-10 23:35:33,761 - tg_logger - INFO - Запуск Telegram-бота...
+2024-10-10 23:35:33,762 - tg_logger - INFO - Telegram-бот успешно запущен.
+2024-10-10 23:35:34,063 - tg_logger - INFO - Telegram-бот начал получать обновления.
+2024-10-10 23:39:10,318 - tg_logger - INFO - Запуск Telegram-бота...
+2024-10-10 23:39:10,318 - tg_logger - INFO - Telegram-бот успешно запущен.
+2024-10-10 23:39:10,525 - tg_logger - INFO - Telegram-бот начал получать обновления.
+2024-10-10 23:41:05,539 - tg_logger - INFO - Запуск Telegram-бота...
+2024-10-10 23:41:05,539 - tg_logger - INFO - Telegram-бот успешно запущен.
+2024-10-10 23:41:05,738 - tg_logger - INFO - Telegram-бот начал получать обновления.
+2024-10-10 23:41:09,045 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Запрос базы данных emails
+2024-10-10 23:41:43,616 - tg_logger - INFO - Запуск Telegram-бота...
+2024-10-10 23:41:43,617 - tg_logger - INFO - Telegram-бот успешно запущен.
+2024-10-10 23:41:43,822 - tg_logger - INFO - Telegram-бот начал получать обновления.
+2024-10-10 23:43:06,461 - tg_logger - INFO - Запуск Telegram-бота...
+2024-10-10 23:43:06,462 - tg_logger - INFO - Telegram-бот успешно запущен.
+2024-10-10 23:43:06,712 - tg_logger - INFO - Telegram-бот начал получать обновления.
+2024-10-10 23:43:33,579 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Запрос базы данных emails
+2024-10-10 23:43:51,945 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Запрос базы данных emails
+2024-10-10 23:44:12,658 - tg_logger - INFO - Запуск Telegram-бота...
+2024-10-10 23:44:12,659 - tg_logger - INFO - Telegram-бот успешно запущен.
+2024-10-10 23:44:12,851 - tg_logger - INFO - Telegram-бот начал получать обновления.
+2024-10-11 00:11:51,449 - tg_logger - INFO - Запуск Telegram-бота...
+2024-10-11 00:11:51,450 - tg_logger - INFO - Telegram-бот успешно запущен.
+2024-10-11 00:11:51,639 - tg_logger - INFO - Telegram-бот начал получать обновления.
+2024-10-11 00:12:05,643 - tg_logger - INFO - Запуск Telegram-бота...
+2024-10-11 00:12:05,643 - tg_logger - INFO - Telegram-бот успешно запущен.
+2024-10-11 00:12:05,851 - tg_logger - INFO - Telegram-бот начал получать обновления.
+2024-10-11 00:12:08,688 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Запрос базы данных emails
+2024-10-11 00:12:15,625 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Запрос базы данных phone_numbers
+2024-10-11 00:16:50,305 - tg_logger - INFO - Запуск Telegram-бота...
+2024-10-11 00:16:50,306 - tg_logger - INFO - Telegram-бот успешно запущен.
+2024-10-11 00:16:50,529 - tg_logger - INFO - Telegram-бот начал получать обновления.
+2024-10-11 00:16:53,124 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Запрос базы данных phone_numbers
+2024-10-11 00:16:56,854 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Запрос базы данных emails
+2024-10-11 00:41:27,227 - tg_logger - INFO - Запуск Telegram-бота...
+2024-10-11 00:41:27,228 - tg_logger - INFO - Telegram-бот успешно запущен.
+2024-10-11 00:41:27,530 - tg_logger - INFO - Telegram-бот начал получать обновления.
+2024-10-11 00:41:40,452 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запрашивает помощь.
+2024-10-11 00:41:45,878 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Запрос базы данных emails
+2024-10-11 00:41:48,125 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запрашивает поиск email-адресов.
+2024-10-11 00:42:10,523 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запрашивает поиск email-адресов.
+2024-10-11 00:42:10,524 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Найденные email-адреса: 1 .   i v a n . i v a n o v @ w o r k - m a i l . o r g 
+ 2 .   i _ i v a n o v 8 5 @ p e r s o n a l . r u 
+ 3 .   i v a n o v + u r g e n t @ g m a i l . c o m 
+ 4 .   a n n a . k u z n e t s o v a @ b i g c o m p a n y . c o m 
+ 5 .   a . k u z n e t s o v a - p r o j e c t s @ c o r p . o r g 
+ 6 .   s a l e s - t e a m @ b u s i n e s s . r u 
+ 7 .   p a r t n e r s h i p s @ g l o b a l . n e t 
+
+2024-10-11 00:44:46,282 - tg_logger - INFO - Запуск Telegram-бота...
+2024-10-11 00:44:46,283 - tg_logger - INFO - Telegram-бот успешно запущен.
+2024-10-11 00:44:46,505 - tg_logger - INFO - Telegram-бот начал получать обновления.
+2024-10-11 00:44:52,942 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запрашивает поиск email-адресов.
+2024-10-11 00:44:59,935 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запрашивает поиск email-адресов.
+2024-10-11 00:44:59,936 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Найденные email-адреса: 1 .   i v a n . i v a n o v @ w o r k - m a i l . o r g 
+ 2 .   i _ i v a n o v 8 5 @ p e r s o n a l . r u 
+ 3 .   i v a n o v + u r g e n t @ g m a i l . c o m 
+ 4 .   a n n a . k u z n e t s o v a @ b i g c o m p a n y . c o m 
+ 5 .   a . k u z n e t s o v a - p r o j e c t s @ c o r p . o r g 
+ 6 .   s a l e s - t e a m @ b u s i n e s s . r u 
+ 7 .   p a r t n e r s h i p s @ g l o b a l . n e t 
+
+2024-10-11 00:45:03,533 - tg_logger - INFO - Пользователь Федя ( @tarakanchk) подтвердил сохранение email-адресов: 1 .   i v a n . i v a n o v @ w o r k - m a i l . o r g 
+ 2 .   i _ i v a n o v 8 5 @ p e r s o n a l . r u 
+ 3 .   i v a n o v + u r g e n t @ g m a i l . c o m 
+ 4 .   a n n a . k u z n e t s o v a @ b i g c o m p a n y . c o m 
+ 5 .   a . k u z n e t s o v a - p r o j e c t s @ c o r p . o r g 
+ 6 .   s a l e s - t e a m @ b u s i n e s s . r u 
+ 7 .   p a r t n e r s h i p s @ g l o b a l . n e t 
+
+2024-10-11 00:45:04,626 - tg_logger - INFO - Email-адреса 1 .   i v a n . i v a n o v @ w o r k - m a i l . o r g 
+ 2 .   i _ i v a n o v 8 5 @ p e r s o n a l . r u 
+ 3 .   i v a n o v + u r g e n t @ g m a i l . c o m 
+ 4 .   a n n a . k u z n e t s o v a @ b i g c o m p a n y . c o m 
+ 5 .   a . k u z n e t s o v a - p r o j e c t s @ c o r p . o r g 
+ 6 .   s a l e s - t e a m @ b u s i n e s s . r u 
+ 7 .   p a r t n e r s h i p s @ g l o b a l . n e t 
+ успешно записаны в базу данных пользователем Федя ( @tarakanchk)
+2024-10-11 00:45:16,142 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Запрос базы данных emails
+2024-10-11 00:49:27,298 - tg_logger - INFO - Запуск Telegram-бота...
+2024-10-11 00:49:27,298 - tg_logger - INFO - Telegram-бот успешно запущен.
+2024-10-11 00:49:27,491 - tg_logger - INFO - Telegram-бот начал получать обновления.
+2024-10-11 00:49:32,067 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Запрос базы данных emails
+2024-10-11 00:49:42,076 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запрашивает поиск email-адресов.
+2024-10-11 00:49:43,884 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запрашивает поиск email-адресов.
+2024-10-11 00:49:43,885 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Найденные email-адреса: 1 .   i v a n . i v a n o v @ w o r k - m a i l . o r g 
+ 2 .   i _ i v a n o v 8 5 @ p e r s o n a l . r u 
+ 3 .   i v a n o v + u r g e n t @ g m a i l . c o m 
+ 4 .   a n n a . k u z n e t s o v a @ b i g c o m p a n y . c o m 
+ 5 .   a . k u z n e t s o v a - p r o j e c t s @ c o r p . o r g 
+ 6 .   s a l e s - t e a m @ b u s i n e s s . r u 
+ 7 .   p a r t n e r s h i p s @ g l o b a l . n e t 
+
+2024-10-11 00:49:46,955 - tg_logger - INFO - Пользователь Федя ( @tarakanchk) подтвердил сохранение email-адресов: 1 .   i v a n . i v a n o v @ w o r k - m a i l . o r g 
+ 2 .   i _ i v a n o v 8 5 @ p e r s o n a l . r u 
+ 3 .   i v a n o v + u r g e n t @ g m a i l . c o m 
+ 4 .   a n n a . k u z n e t s o v a @ b i g c o m p a n y . c o m 
+ 5 .   a . k u z n e t s o v a - p r o j e c t s @ c o r p . o r g 
+ 6 .   s a l e s - t e a m @ b u s i n e s s . r u 
+ 7 .   p a r t n e r s h i p s @ g l o b a l . n e t 
+
+2024-10-11 00:49:47,078 - tg_logger - ERROR - Ошибка при записи email-адресов 1 .   i v a n . i v a n o v @ w o r k - m a i l . o r g 
+ 2 .   i _ i v a n o v 8 5 @ p e r s o n a l . r u 
+ 3 .   i v a n o v + u r g e n t @ g m a i l . c o m 
+ 4 .   a n n a . k u z n e t s o v a @ b i g c o m p a n y . c o m 
+ 5 .   a . k u z n e t s o v a - p r o j e c t s @ c o r p . o r g 
+ 6 .   s a l e s - t e a m @ b u s i n e s s . r u 
+ 7 .   p a r t n e r s h i p s @ g l o b a l . n e t 
+ для пользователя Федя ( @tarakanchk)
+2024-10-11 00:51:02,058 - tg_logger - INFO - Запуск Telegram-бота...
+2024-10-11 00:51:02,059 - tg_logger - INFO - Telegram-бот успешно запущен.
+2024-10-11 00:51:02,254 - tg_logger - INFO - Telegram-бот начал получать обновления.
+2024-10-11 00:51:08,108 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запрашивает поиск email-адресов.
+2024-10-11 00:51:11,089 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запрашивает поиск email-адресов.
+2024-10-11 00:51:11,090 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Найденные email-адреса: 1 .   i v a n . i v a n o v @ w o r k - m a i l . o r g 
+ 2 .   i _ i v a n o v 8 5 @ p e r s o n a l . r u 
+ 3 .   i v a n o v + u r g e n t @ g m a i l . c o m 
+ 4 .   a n n a . k u z n e t s o v a @ b i g c o m p a n y . c o m 
+ 5 .   a . k u z n e t s o v a - p r o j e c t s @ c o r p . o r g 
+ 6 .   s a l e s - t e a m @ b u s i n e s s . r u 
+ 7 .   p a r t n e r s h i p s @ g l o b a l . n e t 
+
+2024-10-11 00:51:13,641 - tg_logger - INFO - Пользователь Федя ( @tarakanchk) подтвердил сохранение email-адресов: 1 .   i v a n . i v a n o v @ w o r k - m a i l . o r g 
+ 2 .   i _ i v a n o v 8 5 @ p e r s o n a l . r u 
+ 3 .   i v a n o v + u r g e n t @ g m a i l . c o m 
+ 4 .   a n n a . k u z n e t s o v a @ b i g c o m p a n y . c o m 
+ 5 .   a . k u z n e t s o v a - p r o j e c t s @ c o r p . o r g 
+ 6 .   s a l e s - t e a m @ b u s i n e s s . r u 
+ 7 .   p a r t n e r s h i p s @ g l o b a l . n e t 
+
+2024-10-11 00:51:13,797 - tg_logger - ERROR - Ошибка при записи email-адресов 1 .   i v a n . i v a n o v @ w o r k - m a i l . o r g 
+ 2 .   i _ i v a n o v 8 5 @ p e r s o n a l . r u 
+ 3 .   i v a n o v + u r g e n t @ g m a i l . c o m 
+ 4 .   a n n a . k u z n e t s o v a @ b i g c o m p a n y . c o m 
+ 5 .   a . k u z n e t s o v a - p r o j e c t s @ c o r p . o r g 
+ 6 .   s a l e s - t e a m @ b u s i n e s s . r u 
+ 7 .   p a r t n e r s h i p s @ g l o b a l . n e t 
+ для пользователя Федя ( @tarakanchk)
+2024-10-11 00:51:31,559 - tg_logger - INFO - Запуск Telegram-бота...
+2024-10-11 00:51:31,559 - tg_logger - INFO - Telegram-бот успешно запущен.
+2024-10-11 00:51:31,758 - tg_logger - INFO - Telegram-бот начал получать обновления.
+2024-10-11 00:51:35,788 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запрашивает поиск email-адресов.
+2024-10-11 00:51:38,003 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запрашивает поиск email-адресов.
+2024-10-11 00:51:38,004 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Найденные email-адреса: 1 .   i v a n . i v a n o v @ w o r k - m a i l . o r g 
+ 2 .   i _ i v a n o v 8 5 @ p e r s o n a l . r u 
+ 3 .   i v a n o v + u r g e n t @ g m a i l . c o m 
+ 4 .   a n n a . k u z n e t s o v a @ b i g c o m p a n y . c o m 
+ 5 .   a . k u z n e t s o v a - p r o j e c t s @ c o r p . o r g 
+ 6 .   s a l e s - t e a m @ b u s i n e s s . r u 
+ 7 .   p a r t n e r s h i p s @ g l o b a l . n e t 
+
+2024-10-11 00:51:40,779 - tg_logger - INFO - Пользователь Федя ( @tarakanchk) подтвердил сохранение email-адресов: 1 .   i v a n . i v a n o v @ w o r k - m a i l . o r g 
+ 2 .   i _ i v a n o v 8 5 @ p e r s o n a l . r u 
+ 3 .   i v a n o v + u r g e n t @ g m a i l . c o m 
+ 4 .   a n n a . k u z n e t s o v a @ b i g c o m p a n y . c o m 
+ 5 .   a . k u z n e t s o v a - p r o j e c t s @ c o r p . o r g 
+ 6 .   s a l e s - t e a m @ b u s i n e s s . r u 
+ 7 .   p a r t n e r s h i p s @ g l o b a l . n e t 
+
+2024-10-11 00:52:53,696 - tg_logger - INFO - Запуск Telegram-бота...
+2024-10-11 00:52:53,697 - tg_logger - INFO - Telegram-бот успешно запущен.
+2024-10-11 00:52:53,938 - tg_logger - INFO - Telegram-бот начал получать обновления.
+2024-10-11 00:52:57,638 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запрашивает поиск email-адресов.
+2024-10-11 00:53:04,713 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запрашивает поиск email-адресов.
+2024-10-11 00:53:04,714 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Найденные email-адреса: 1 .   i v a n . i v a n o v @ w o r k - m a i l . o r g 
+ 2 .   i _ i v a n o v 8 5 @ p e r s o n a l . r u 
+ 3 .   i v a n o v + u r g e n t @ g m a i l . c o m 
+ 4 .   a n n a . k u z n e t s o v a @ b i g c o m p a n y . c o m 
+ 5 .   a . k u z n e t s o v a - p r o j e c t s @ c o r p . o r g 
+ 6 .   s a l e s - t e a m @ b u s i n e s s . r u 
+ 7 .   p a r t n e r s h i p s @ g l o b a l . n e t 
+
+2024-10-11 00:53:07,346 - tg_logger - INFO - Пользователь Федя ( @tarakanchk) подтвердил сохранение email-адресов: ivan.ivanov@work-mail.org i_ivanov85@personal.ru ivanov+urgent@gmail.com anna.kuznetsova@bigcompany.com a.kuznetsova-projects@corp.org sales-team@business.ru partnerships@global.net
+2024-10-11 00:55:19,623 - tg_logger - INFO - Запуск Telegram-бота...
+2024-10-11 00:55:19,624 - tg_logger - INFO - Telegram-бот успешно запущен.
+2024-10-11 00:55:19,831 - tg_logger - INFO - Telegram-бот начал получать обновления.
+2024-10-11 00:55:23,371 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запрашивает поиск email-адресов.
+2024-10-11 00:55:28,667 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запрашивает поиск email-адресов.
+2024-10-11 00:55:28,668 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Найденные email-адреса: 1 .   i v a n . i v a n o v @ w o r k - m a i l . o r g 
+ 2 .   i _ i v a n o v 8 5 @ p e r s o n a l . r u 
+ 3 .   i v a n o v + u r g e n t @ g m a i l . c o m 
+ 4 .   a n n a . k u z n e t s o v a @ b i g c o m p a n y . c o m 
+ 5 .   a . k u z n e t s o v a - p r o j e c t s @ c o r p . o r g 
+ 6 .   s a l e s - t e a m @ b u s i n e s s . r u 
+ 7 .   p a r t n e r s h i p s @ g l o b a l . n e t 
+
+2024-10-11 00:55:32,678 - tg_logger - INFO - Пользователь Федя ( @tarakanchk) подтвердил сохранение email-адресов: ivan.ivanov@work-mail.org i_ivanov85@personal.ru ivanov+urgent@gmail.com anna.kuznetsova@bigcompany.com a.kuznetsova-projects@corp.org sales-team@business.ru partnerships@global.net
+2024-10-11 00:55:42,776 - tg_logger - INFO - Email-адреса ivan.ivanov@work-mail.org i_ivanov85@personal.ru ivanov+urgent@gmail.com anna.kuznetsova@bigcompany.com a.kuznetsova-projects@corp.org sales-team@business.ru partnerships@global.net успешно записаны в базу данных пользователем Федя ( @tarakanchk)
+2024-10-11 00:55:51,691 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запрашивает поиск email-адресов.
+2024-10-11 00:55:56,786 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запрашивает поиск email-адресов.
+2024-10-11 00:55:56,786 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Найденные email-адреса: 1 .   i v a n . i v a n o v @ w o r k - m a i l . o r g 
+ 2 .   i _ i v a n o v 8 5 @ p e r s o n a l . r u 
+ 3 .   i v a n o v + u r g e n t @ g m a i l . c o m 
+ 4 .   a n n a . k u z n e t s o v a @ b i g c o m p a n y . c o m 
+ 5 .   a . k u z n e t s o v a - p r o j e c t s @ c o r p . o r g 
+ 6 .   s a l e s - t e a m @ b u s i n e s s . r u 
+ 7 .   p a r t n e r s h i p s @ g l o b a l . n e t 
+
+2024-10-11 00:55:59,923 - tg_logger - INFO - Пользователь Федя ( @tarakanchk) отменил запись email-адресов.
+2024-10-11 00:56:12,412 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Запрос базы данных emails
+2024-10-11 00:57:41,036 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запрашивает помощь.
+2024-10-11 00:57:44,910 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запрашивает поиск телефонных номеров.
+2024-10-11 00:57:47,183 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запрашивает поиск телефонных номеров.
+2024-10-11 00:57:47,186 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Найденные номера телефонов: 1 .   + 7   ( 9 1 2 )   3 4 5 - 6 7 - 8 9 
+ 2 .   8 9 1 2 3 4 5 6 7 8 
+ 3 .   + 7   4 9 5   7 6 5   4 3   2 1 
+ 4 .   8 - 8 0 0 - 5 5 5 - 3 5 - 3 5 
+ 5 .   + 7   4 9 9   1 2 3 - 4 5 - 6 7 
+
+2024-10-11 00:57:55,239 - tg_logger - INFO - Пользователь Федя ( @tarakanchk) отменил запись номеров телефонов.
+2024-10-11 00:58:00,607 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Запрос базы данных phone_numbers
+2024-10-11 00:58:04,124 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запрашивает поиск телефонных номеров.
+2024-10-11 00:58:05,523 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запрашивает поиск телефонных номеров.
+2024-10-11 00:58:05,523 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Найденные номера телефонов: 1 .   + 7   ( 9 1 2 )   3 4 5 - 6 7 - 8 9 
+ 2 .   8 9 1 2 3 4 5 6 7 8 
+ 3 .   + 7   4 9 5   7 6 5   4 3   2 1 
+ 4 .   8 - 8 0 0 - 5 5 5 - 3 5 - 3 5 
+ 5 .   + 7   4 9 9   1 2 3 - 4 5 - 6 7 
+
+2024-10-11 00:58:10,309 - tg_logger - INFO - Пользователь Федя ( @tarakanchk) подтвердил сохранение номеров телефонов: +7 (912) 345-67-89 8912345678 +7 495 765 43 21 8-800-555-35-35 +7 499 123-45-67
+2024-10-11 00:58:10,451 - tg_logger - INFO - Номера телефонов +7 (912) 345-67-89 8912345678 +7 495 765 43 21 8-800-555-35-35 +7 499 123-45-67 успешно записаны в базу данных пользователем Федя ( @tarakanchk)
+2024-10-11 00:58:15,832 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Запрос базы данных phone_numbers
+2024-10-11 00:58:43,677 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запустил бота.
+2024-10-11 01:10:31,542 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Запрос базы данных phone_numbers
+2024-10-11 01:10:40,418 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Запрос базы данных emails
+2024-10-11 01:10:45,948 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запрашивает поиск email-адресов.
+2024-10-11 01:10:53,455 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запрашивает поиск email-адресов.
+2024-10-11 01:10:53,460 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Найденные email-адреса: 1 .   i v a n . i v a n o v @ w o r k - m a i l . o r g 
+ 2 .   i _ i v a n o v 8 5 @ p e r s o n a l . r u 
+ 3 .   i v a n o v + u r g e n t @ g m a i l . c o m 
+ 4 .   a n n a . k u z n e t s o v a @ b i g c o m p a n y . c o m 
+ 5 .   a . k u z n e t s o v a - p r o j e c t s @ c o r p . o r g 
+ 6 .   s a l e s - t e a m @ b u s i n e s s . r u 
+ 7 .   p a r t n e r s h i p s @ g l o b a l . n e t 
+
+2024-10-11 01:10:58,168 - tg_logger - INFO - Пользователь Федя ( @tarakanchk) подтвердил сохранение email-адресов: ivan.ivanov@work-mail.org i_ivanov85@personal.ru ivanov+urgent@gmail.com anna.kuznetsova@bigcompany.com a.kuznetsova-projects@corp.org sales-team@business.ru partnerships@global.net
+2024-10-11 01:10:58,325 - tg_logger - INFO - Email-адреса ivan.ivanov@work-mail.org i_ivanov85@personal.ru ivanov+urgent@gmail.com anna.kuznetsova@bigcompany.com a.kuznetsova-projects@corp.org sales-team@business.ru partnerships@global.net успешно записаны в базу данных пользователем Федя ( @tarakanchk)
+2024-10-11 01:11:03,043 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Запрос базы данных emails
+2024-10-11 01:23:00,557 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Запрос базы данных emails
+2024-10-11 01:23:18,896 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Запрос базы данных emails
+2024-10-11 01:27:33,726 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запустил бота.
+2024-10-11 01:27:48,133 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Запрос базы данных emails
+2024-10-11 01:30:26,386 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Запрос базы данных emails
+2024-10-11 01:32:21,860 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запустил бота.
+2024-10-11 01:32:27,473 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Запрос базы данных phone_numbers
+2024-10-11 01:33:02,251 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Запрос базы данных phone_numbers
+2024-10-11 01:40:15,048 - tg_logger - INFO - Запуск Telegram-бота...
+2024-10-11 01:40:15,050 - tg_logger - INFO - Telegram-бот успешно запущен.
+2024-10-11 01:40:15,263 - tg_logger - INFO - Telegram-бот начал получать обновления.
+2024-10-11 01:40:25,928 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Запрос базы данных phone_numbers
+2024-10-11 01:40:33,165 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запрашивает помощь.
+2024-10-11 01:40:35,726 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Запрос базы данных emails
+2024-10-11 01:40:52,270 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запрашивает поиск email-адресов.
+2024-10-11 01:41:30,984 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запрашивает поиск email-адресов.
+2024-10-11 01:41:30,988 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Найденные email-адреса: ivan.ivanov@work-mail.org i_ivanov85@personal.ru ivanov+urgent@gmail.com anna.kuznetsova@bigcompany.com a.kuznetsova-projects@corp.org sales-team@business.ru partnerships@global.net
+2024-10-11 01:41:36,416 - tg_logger - INFO - Пользователь Федя ( @tarakanchk) отменил запись email-адресов.
+2024-10-11 01:41:49,591 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запрашивает поиск телефонных номеров.
+2024-10-11 01:41:52,475 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запрашивает поиск телефонных номеров.
+2024-10-11 01:41:52,477 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Найденные номера телефонов: +7 (912) 345-67-89 8912345678 +7 495 765 43 21 8-800-555-35-35 +7 499 123-45-67
+2024-10-11 01:41:55,292 - tg_logger - INFO - Пользователь Федя ( @tarakanchk) отменил запись номеров телефонов.
+2024-10-11 01:42:57,548 - tg_logger - INFO - Запуск Telegram-бота...
+2024-10-11 01:42:57,585 - tg_logger - INFO - Telegram-бот успешно запущен.
+2024-10-11 01:42:57,906 - tg_logger - INFO - Telegram-бот начал получать обновления.
+2024-10-11 01:43:00,130 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запрашивает поиск телефонных номеров.
+2024-10-11 01:43:02,329 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запрашивает поиск телефонных номеров.
+2024-10-11 01:43:02,331 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Найденные номера телефонов: +7 (912) 345-67-89 | 8912345678 | +7 495 765 43 21 | 8-800-555-35-35 | +7 499 123-45-67
+2024-10-11 01:43:05,340 - tg_logger - INFO - Пользователь Федя ( @tarakanchk) отменил запись номеров телефонов.
+2024-10-11 01:43:07,704 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запрашивает поиск телефонных номеров.
+2024-10-11 01:43:12,529 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запрашивает поиск телефонных номеров.
+2024-10-11 01:43:12,530 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Найденные номера телефонов: +7 (912) 345-67-89 | 8912345678 | +7 495 765 43 21 | 8-800-555-35-35 | +7 499 123-45-67
+2024-10-11 01:43:17,386 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запрашивает поиск email-адресов.
+2024-10-11 01:43:19,358 - tg_logger - INFO - Пользователь Федя ( @tarakanchk) отменил запись номеров телефонов.
+2024-10-11 01:43:25,791 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запрашивает поиск email-адресов.
+2024-10-11 01:43:25,792 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Найденные email-адреса: ivan.ivanov@work-mail.org | i_ivanov85@personal.ru | ivanov+urgent@gmail.com | anna.kuznetsova@bigcompany.com | a.kuznetsova-projects@corp.org | sales-team@business.ru | partnerships@global.net
+2024-10-11 01:43:28,769 - tg_logger - INFO - Пользователь Федя ( @tarakanchk) отменил запись email-адресов.
+2024-10-11 01:54:54,036 - tg_logger - INFO - Запуск Telegram-бота...
+2024-10-11 01:54:54,036 - tg_logger - INFO - Telegram-бот успешно запущен.
+2024-10-11 01:54:54,254 - tg_logger - INFO - Telegram-бот начал получать обновления.
+2024-10-11 01:55:03,665 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запустил бота.
+2024-10-11 01:55:22,354 - tg_logger - INFO - Пользователь Федя  ( @tarakanchk ) запрашивает последние 20 строк логов репликации.
+2024-10-11 01:55:23,338 - tg_logger - INFO - Логи репликации отправлены пользователю Федя  ( @tarakanchk ) .
+2024-10-11 01:55:46,919 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запустил бота.
+2024-10-11 01:55:59,080 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Запрос базы данных emails
+2024-10-11 01:56:06,710 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Запрос базы данных phone_numbers
+2024-10-11 01:56:35,226 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запустил бота.
+2024-10-11 01:56:38,047 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запрашивает поиск email-адресов.
+2024-10-11 01:57:17,438 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запрашивает поиск email-адресов.
+2024-10-11 01:57:17,441 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Найденные email-адреса: feodor_kalashov@yandex.ru
+2024-10-11 01:57:28,559 - tg_logger - INFO - Пользователь Федя ( @tarakanchk) отменил запись email-адресов.
+2024-10-11 01:57:31,201 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запрашивает поиск email-адресов.
+2024-10-11 01:57:37,137 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запрашивает поиск email-адресов.
+2024-10-11 01:57:37,137 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Найденные email-адреса: feodor_kalashov@yandex.ru
+2024-10-11 01:57:39,087 - tg_logger - INFO - Пользователь Федя ( @tarakanchk) подтвердил сохранение email-адресов: feodor_kalashov@yandex.ru
+2024-10-11 01:57:39,292 - tg_logger - INFO - Email-адреса feodor_kalashov@yandex.ru успешно записаны в базу данных пользователем Федя ( @tarakanchk)
+2024-10-11 01:57:53,971 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Запрос базы данных emails
+2024-10-11 01:59:24,262 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Запрос базы данных emails
+2024-10-11 02:00:07,686 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запустил бота.
+2024-10-11 02:00:19,054 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запрашивает поиск телефонных номеров.
+2024-10-11 02:00:38,419 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запрашивает поиск телефонных номеров.
+2024-10-11 02:00:38,421 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Найденные номера телефонов: +7 (999) 888 77 66
+2024-10-11 02:00:45,572 - tg_logger - INFO - Пользователь Федя ( @tarakanchk) отменил запись номеров телефонов.
+2024-10-11 02:00:50,102 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запрашивает поиск телефонных номеров.
+2024-10-11 02:00:55,025 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запрашивает поиск телефонных номеров.
+2024-10-11 02:00:55,025 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Найденные номера телефонов: +7 (999) 888 77 66
+2024-10-11 02:00:57,525 - tg_logger - INFO - Пользователь Федя ( @tarakanchk) подтвердил сохранение номеров телефонов: +7 (999) 888 77 66
+2024-10-11 02:00:57,665 - tg_logger - INFO - Номера телефонов +7 (999) 888 77 66 успешно записаны в базу данных пользователем Федя ( @tarakanchk)
+2024-10-11 02:01:10,919 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Запрос базы данных phone_numbers
+2024-10-11 02:02:04,543 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Запрос базы данных phone_numbers
+2024-10-13 02:49:29,136 - tg_logger - INFO - Запуск Telegram-бота...
+2024-10-13 02:49:29,137 - tg_logger - INFO - Telegram-бот успешно запущен.
+2024-10-13 02:49:32,506 - tg_logger - INFO - Telegram-бот начал получать обновления.
+2024-10-13 02:50:51,359 - tg_logger - INFO - Запуск Telegram-бота...
+2024-10-13 02:50:51,360 - tg_logger - INFO - Telegram-бот успешно запущен.
+2024-10-13 02:50:51,569 - tg_logger - INFO - Telegram-бот начал получать обновления.
+2024-10-13 02:50:58,307 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запустил бота.
+2024-10-13 02:51:05,664 - tg_logger - INFO - Запуск Telegram-бота...
+2024-10-13 02:51:05,665 - tg_logger - INFO - Telegram-бот успешно запущен.
+2024-10-13 02:51:05,859 - tg_logger - INFO - Telegram-бот начал получать обновления.
+2024-10-13 02:51:09,776 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запустил бота.
+2024-10-13 02:51:16,318 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запрашивает помощь.
+2024-10-13 02:52:25,931 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Запрос базы данных emails
+2024-10-13 02:52:29,613 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) : Запрос базы данных emails
+2024-10-13 04:41:00,374 - tg_logger - INFO - Запуск Telegram-бота...
+2024-10-13 04:41:00,375 - tg_logger - INFO - Telegram-бот успешно запущен.
+2024-10-13 04:41:00,591 - tg_logger - INFO - Telegram-бот начал получать обновления.
+2024-10-13 04:41:00,635 - tg_logger - INFO - Пользователь Федя ( @tarakanchk ) запустил бота.

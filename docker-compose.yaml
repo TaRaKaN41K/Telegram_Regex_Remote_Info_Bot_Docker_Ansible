@@ -1,0 +1,54 @@
+version: '3.8'
+services:
+  bot:
+    image: 192.168.208.2:80/bot_image:latest
+    container_name: bot_container
+    ports:
+      - "80:80"
+    environment:
+      TOKEN: ${TOKEN}
+      RM_HOST: ${RM_HOST}
+      RM_PORT: ${RM_PORT}
+      RM_USER: ${RM_USER}
+      RM_PASSWORD: ${RM_PASSWORD}
+      DB_HOST: ${DB_HOST}
+      DB_PORT: ${DB_PORT}
+      DB_USER: ${DB_USER}
+      DB_PASSWORD: ${DB_PASSWORD}
+      DB_DATABASE: ${DB_DATABASE}
+      DB_REPL_USER: ${DB_REPL_USER}
+      DB_REPL_PASSWORD: ${DB_REPL_PASSWORD}
+      DB_REPL_HOST: ${DB_REPL_HOST}
+      DB_REPL_PORT: ${DB_REPL_PORT}
+    networks:
+      - app_network
+
+  database:
+    image: 192.168.208.2:80/db_image:latest
+    container_name: db_container
+    environment:
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DB: ${DB_DATABASE}
+    ports:
+      - "5432:5432"
+    networks:
+      - app_network
+
+  db_replica:
+    image: 192.168.208.2:80/db_repl_image:latest
+    container_name: db_repl_container
+    environment:
+      DB_HOST: ${DB_HOST}.app_network
+      DB_PORT: ${DB_PORT}
+      REPLICA_DB_HOST: ${DB_REPL_HOST}
+      REPLICA_DB_PORT: ${DB_REPL_PORT}
+      REPLICA_DB_USER: ${DB_REPL_USER}
+      REPLICA_DB_PASSWORD: ${DB_REPL_PASSWORD}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+    networks:
+      - app_network
+
+networks:
+  app_network:
+    driver: bridge
