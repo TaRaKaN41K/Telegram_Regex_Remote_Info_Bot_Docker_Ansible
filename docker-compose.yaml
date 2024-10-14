@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   bot:
-    image: 192.168.208.2:80/bot_image:latest
+    image: bot_image:latest
     container_name: bot_container
     ports:
       - "80:80"
@@ -24,7 +24,7 @@ services:
       - app_network
 
   database:
-    image: 192.168.208.2:80/db_image:latest
+    image: db_image:latest
     container_name: db_container
     environment:
       POSTGRES_USER: ${DB_USER}
@@ -36,7 +36,7 @@ services:
       - app_network
 
   db_replica:
-    image: 192.168.208.2:80/db_repl_image:latest
+    image: db_repl_image:latest
     container_name: db_repl_container
     environment:
       DB_HOST: ${DB_HOST}.app_network
